@@ -1,5 +1,88 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SenHub packages</title>
-<style>body{font:16px/1.5 system-ui,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem;color:#00102e}code{background:#f2f2f2;padding:.1rem .3rem}</style></head>
-<body><h1>SenHub agent packages</h1>
-<p>APT and YUM/DNF/Zypper repositories for the SenHub agent. Installation instructions: <a href="https://agent.senhub.io">agent.senhub.io</a>.</p>
-<p>Signing key: <a href="gpg.key">gpg.key</a>, fingerprint <code>B9987A2D4623796E19D3B185CA56F750354530AF</code>.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SenHub Agent packages</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;max-width:52rem;margin:2rem auto;padding:0 1rem;color:#1b1f24}
+pre{background:#f3f4f6;padding:.8rem 1rem;overflow-x:auto;border-radius:4px;font-size:14px}
+h1,h2,h3{line-height:1.25}
+code{font-family:ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){body{background:#12151a;color:#e6e8eb}pre{background:#1d222a}a{color:#7fb2ff}}
+</style>
+</head>
+<body>
+<h1>SenHub Agent packages</h1>
+<p>Signed APT and YUM/DNF/Zypper repositories for the SenHub Agent on Linux (amd64 and arm64).</p>
+
+<h2>Editions</h2>
+<ul>
+<li><code>senhub-agent-oss</code>: the open-source edition (Apache-2.0).</li>
+<li><code>senhub-agent</code>: the full edition, under the SenHub commercial licence; a licence key enables its paid probes.</li>
+</ul>
+<p>The two editions install the same files and the same service: install one or the other. To switch, use <code>sudo apt install senhub-agent</code> on Debian and Ubuntu, <code>sudo dnf swap senhub-agent-oss senhub-agent</code> on RHEL and derivatives, or <code>sudo zypper install --force-resolution senhub-agent</code> on openSUSE and SLES (names exchanged to go back).</p>
+
+<h2>Channels</h2>
+<ul>
+<li><code>stable</code>: final releases.</li>
+<li><code>beta</code>: pre-releases (<code>X.Y.Z~beta.N</code>), published before the final release.</li>
+</ul>
+<p>Pick one channel per machine. The signing key fingerprint is <code>B998 7A2D 4623 796E 19D3 B185 CA56 F750 3545 30AF</code>; it is served at <a href="https://packages.senhub.io/gpg.key">https://packages.senhub.io/gpg.key</a>.</p>
+<h2>Channel stable</h2>
+<h3>Debian, Ubuntu (apt)</h3>
+<pre><code id="apt-stable">sudo install -d -m 0755 /etc/apt/keyrings
+curl -fsSL https://packages.senhub.io/gpg.key | sudo gpg --dearmor --yes -o /etc/apt/keyrings/senhub.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/senhub.gpg] https://packages.senhub.io/apt stable main" | sudo tee /etc/apt/sources.list.d/senhub.list
+sudo apt update
+</code></pre>
+<pre><code id="install-apt-oss-stable">sudo apt install senhub-agent-oss
+</code></pre>
+<pre><code id="install-apt-full-stable">sudo apt install senhub-agent
+</code></pre>
+<h3>RHEL, Rocky Linux, AlmaLinux, Fedora (dnf)</h3>
+<pre><code id="dnf-stable">sudo curl -fsSLo /etc/yum.repos.d/senhub.repo https://packages.senhub.io/rpm/stable/senhub.repo
+</code></pre>
+<pre><code id="install-dnf-oss-stable">sudo dnf install senhub-agent-oss
+</code></pre>
+<pre><code id="install-dnf-full-stable">sudo dnf install senhub-agent
+</code></pre>
+<h3>openSUSE, SLES (zypper)</h3>
+<pre><code id="zypper-stable">sudo rpm --import https://packages.senhub.io/gpg.key
+sudo curl -fsSLo /etc/zypp/repos.d/senhub.repo https://packages.senhub.io/rpm/stable/senhub-zypper.repo
+sudo zypper refresh
+</code></pre>
+<pre><code id="install-zypper-oss-stable">sudo zypper install senhub-agent-oss
+</code></pre>
+<pre><code id="install-zypper-full-stable">sudo zypper install senhub-agent
+</code></pre>
+<h2>Channel beta</h2>
+<h3>Debian, Ubuntu (apt)</h3>
+<pre><code id="apt-beta">sudo install -d -m 0755 /etc/apt/keyrings
+curl -fsSL https://packages.senhub.io/gpg.key | sudo gpg --dearmor --yes -o /etc/apt/keyrings/senhub.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/senhub.gpg] https://packages.senhub.io/apt beta main" | sudo tee /etc/apt/sources.list.d/senhub.list
+sudo apt update
+</code></pre>
+<pre><code id="install-apt-oss-beta">sudo apt install senhub-agent-oss
+</code></pre>
+<pre><code id="install-apt-full-beta">sudo apt install senhub-agent
+</code></pre>
+<h3>RHEL, Rocky Linux, AlmaLinux, Fedora (dnf)</h3>
+<pre><code id="dnf-beta">sudo curl -fsSLo /etc/yum.repos.d/senhub.repo https://packages.senhub.io/rpm/beta/senhub.repo
+</code></pre>
+<pre><code id="install-dnf-oss-beta">sudo dnf install senhub-agent-oss
+</code></pre>
+<pre><code id="install-dnf-full-beta">sudo dnf install senhub-agent
+</code></pre>
+<h3>openSUSE, SLES (zypper)</h3>
+<pre><code id="zypper-beta">sudo rpm --import https://packages.senhub.io/gpg.key
+sudo curl -fsSLo /etc/zypp/repos.d/senhub.repo https://packages.senhub.io/rpm/beta/senhub-zypper.repo
+sudo zypper refresh
+</code></pre>
+<pre><code id="install-zypper-oss-beta">sudo zypper install senhub-agent-oss
+</code></pre>
+<pre><code id="install-zypper-full-beta">sudo zypper install senhub-agent
+</code></pre>
+<p>Packages and repository metadata are signed with the same key. Each client checks both: the repository metadata (<code>repo_gpgcheck=1</code>, or the signed <code>InRelease</code> for apt) and every package (<code>gpgcheck=1</code>).</p>
+</body>
+</html>
