@@ -1,0 +1,21 @@
+{
+  "channels": {
+    "beta": {
+      "latest_url": "https://packages.senhub.io/releases/beta/latest.json",
+      "releases": [
+        {
+          "channel": "beta",
+          "complete": false,
+          "date": "2026-10-07T09:37:34Z",
+          "manifest_url": "https://packages.senhub.io/releases/0.6.2-beta.2/manifest.json",
+          "version": "0.6.2-beta.2"
+        }
+      ]
+    },
+    "stable": {
+      "latest_url": "https://packages.senhub.io/releases/stable/latest.json",
+      "releases": []
+    }
+  },
+  "schema_version": 1
+}
