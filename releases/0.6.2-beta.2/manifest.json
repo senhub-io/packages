@@ -156,7 +156,13 @@
     }
   ],
   "channel": "beta",
-  "charts": [],
+  "charts": [
+    {
+      "digest": "sha256:60100dea68c7e88221f45cdfbfe9078c40aa77f1a4b86f2f5c3df2298b7bd2df",
+      "repo": "ghcr.io/senhub-io/charts/senhub-agent",
+      "version": "0.6.2-beta.2"
+    }
+  ],
   "commit": "8690f0a136188d8def8cf65116809def493db1f6",
   "complete": true,
   "date": "2026-10-07T09:37:34Z",
