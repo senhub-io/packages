@@ -1,0 +1,28 @@
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Thu, 08 Oct 2026 18:54:32 +0000
+Description: SenHub Agent packages (stable channel)
+Label: SenHub Agent
+Origin: Sensor Factory
+Suite: stable
+MD5Sum:
+ ee9ad78de68e3665425bbc4252d214f6             1798 main/binary-amd64/Packages
+ 1c70a37fdb62bb50db57be8e70aa6300              840 main/binary-amd64/Packages.gz
+ 585d68569e3f811ef413887e013cce54             1797 main/binary-arm64/Packages
+ 53eff81d84274527dbd18afbf75cbf3d              841 main/binary-arm64/Packages.gz
+SHA1:
+ 565b6dee50c6c16ef95a721bab3c2e4dd5fb81cf             1798 main/binary-amd64/Packages
+ b9044ddee4bc0e2a158793ea34b6ad8ec50ffa90              840 main/binary-amd64/Packages.gz
+ 167df57db42885ad722580371c1f54134c493fd0             1797 main/binary-arm64/Packages
+ dcf6b233c4148d4e6edd6dad479441640a30c12e              841 main/binary-arm64/Packages.gz
+SHA256:
+ e16249d9da08d8d19411b9433db48c49aeba3d57f4aadd0fe85194c5e2f4ebfc             1798 main/binary-amd64/Packages
+ b079e4a30e7a8fca2a504f9efdeb844103d53ecb6cf36d5840f1313f1e1bdf8a              840 main/binary-amd64/Packages.gz
+ 1e1a27b41f44ddbfb3af402d295f22a8f7e8d31c617bdbc039d96a50acfd95ff             1797 main/binary-arm64/Packages
+ 4797786d7ea8dbece695c2bd6bf29f8ad7d8878e77d93eeb68e82f6d83444f3c              841 main/binary-arm64/Packages.gz
+SHA512:
+ 56ab7eb34ebdc12882c217f1fc12becfc79907ceb257afc3d15e15ffbcac4fc2b2f37a91088b0fa2abae0b2288be8ef785f03127fe1053dd4bc29476aad90390             1798 main/binary-amd64/Packages
+ d0ac3250979c3c11f9f927fa1dc45a00d73ab5636ecb48653b4eb90f653f9c6017f98131abb86ad96b58f70db214a08e95a45d902837dbe5bab19c55257d410e              840 main/binary-amd64/Packages.gz
+ f968b3428c4bd5b705ac050337450ef121e2a2a5ec34787a31f49e608741741be2261cf271cdb37a052b6350f81b77150f3ea01e513e676073358c0405bf267f             1797 main/binary-arm64/Packages
+ 73bf85927a82168655121ed43789c21c47e22e855c6f6ee0e46a0f987160190f9444ff94de0173b73a108fba2481ff00f88906974d0f20d0d284c13546e4c7dc              841 main/binary-arm64/Packages.gz
