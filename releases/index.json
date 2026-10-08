@@ -28,7 +28,15 @@
     },
     "stable": {
       "latest_url": "https://packages.senhub.io/releases/stable/latest.json",
-      "releases": []
+      "releases": [
+        {
+          "channel": "stable",
+          "complete": false,
+          "date": "2026-10-08T18:47:53Z",
+          "manifest_url": "https://packages.senhub.io/releases/0.6.2/manifest.json",
+          "version": "0.6.2"
+        }
+      ]
     }
   },
   "schema_version": 1
