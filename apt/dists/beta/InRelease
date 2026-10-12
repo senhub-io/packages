@@ -4,35 +4,35 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: beta
 Components: main
-Date: Mon, 12 Oct 2026 15:17:12 +0000
+Date: Mon, 12 Oct 2026 16:48:32 +0000
 Description: SenHub Agent packages (beta channel)
 Label: SenHub Agent
 Origin: Sensor Factory
 Suite: beta
 MD5Sum:
- 2fe71c585d7f710a72ffa6812fef4671             9110 main/binary-amd64/Packages
- b23dde15d9d925bf817404fcb01e0ebd             2371 main/binary-amd64/Packages.gz
- d9b154a4542d0c31d24472a0344b2a6c             9105 main/binary-arm64/Packages
- 6aa6fe7bffd512f3b9198d40521763f0             2366 main/binary-arm64/Packages.gz
+ 728f7d87fcf60cfeb678f62a3061129e             9110 main/binary-amd64/Packages
+ 300b97cf96ee535250defa06b3ed121e             2374 main/binary-amd64/Packages.gz
+ 0410ed231461cd1a715735a362a40de7             9105 main/binary-arm64/Packages
+ 74c67530542a7b5f2bbb710d4ad4ea25             2356 main/binary-arm64/Packages.gz
 SHA1:
- 59d1e063a536d8a93f60265f37219d3d2e80cdce             9110 main/binary-amd64/Packages
- b9754abb9a347bc09b2eaf4f9fccbedefb5bf7ef             2371 main/binary-amd64/Packages.gz
- d383dc398e32b3e332529630987dc19000d051fb             9105 main/binary-arm64/Packages
- acc17eff59bfd6a149ab4bba71416fe7c5a7cf22             2366 main/binary-arm64/Packages.gz
+ 8fdc23c74686760bb9c0c552195f8ee7e8d56a11             9110 main/binary-amd64/Packages
+ 4000d63e282f2841a15192b71068476e75e6af0e             2374 main/binary-amd64/Packages.gz
+ f88baeea712369afef7448b02b9991980e0513de             9105 main/binary-arm64/Packages
+ 3f28306dbe62191d29f5cbd06a82fe841fa757bd             2356 main/binary-arm64/Packages.gz
 SHA256:
- 338e178ae16643bf3cc9518d848ce8a73fd0e3e01de096fcc94b63bae888957e             9110 main/binary-amd64/Packages
- d8756431436859a6d489e741139371b04352f817213a8d58d2c08641da256884             2371 main/binary-amd64/Packages.gz
- 7350f76ea2c4d31ad8c6ca059593005a0d62b3f85d78f1226e30c9c5aa1dd721             9105 main/binary-arm64/Packages
- f418100057996ad51f23da545f14665304257c1fd0d8f53351771d168fa83c61             2366 main/binary-arm64/Packages.gz
+ 4b4b42b2d6ef600b86ec125e0ce94a1484c845b85e2d4d7cdd3159fdb48f3724             9110 main/binary-amd64/Packages
+ 2bbdbcbb30f560276b586fd124f63b86a15ec392d9f9a71314663e059c14a54d             2374 main/binary-amd64/Packages.gz
+ 7ee7589079b553cd7fce31e7121c4e5b3db8ff7d5c330f516fe2a88352054efa             9105 main/binary-arm64/Packages
+ 55645d765426084f4793e39384a83e3f09b1d5f954f2f0d425750e409f065ca6             2356 main/binary-arm64/Packages.gz
 SHA512:
- b0440be75db75311eaa812794a1eebe5155a706c48a00a6f8b37ca855576e8fab97a7ce884cf46044d38f70a078bd82f0627fedac2eb82fea4446851c8d72677             9110 main/binary-amd64/Packages
- 840326c468609c54fb621d9a9dcdb687f01018b18bd01dff1052f684f3a93585b8ca4e55023a0c5fbaaebb4a4ef6c4093cf4b2ad896f37013e450e0e70566c8e             2371 main/binary-amd64/Packages.gz
- c2bd545b8e2f72e26b7e410aad7ce09b27fa138ca5409b35616a5518c4a0b8d07c60d4ceb2fbf3b86e4028e185d9fd769b7ae5a6d7af68e174741bf6281b6e5d             9105 main/binary-arm64/Packages
- 3afdbeab19a990ec47f541ef4a2296b69cdfe2c3f5ff10b5766e3cb628471174c24b4531f4e58e2e528775042ad06ba5092c8e1c40eaf784c9b1eb54d91b7837             2366 main/binary-arm64/Packages.gz
+ 7303f140f78077485bb2bb9d083774ea14dfc4287851aa81aba1cbb9ec238aeddd6f6d1cf9926baa5a93fc49340ef45bad7d8fc88bc1a243cffc0c1f50e85928             9110 main/binary-amd64/Packages
+ f5d327dc8f5153578af952ac96b9112e394e7fb184145946e22705f1cdec1c57a919e026d93654c8b2870b940aed62c6aa1897797a668b9c3ddcd76f335f4b8f             2374 main/binary-amd64/Packages.gz
+ ec11eb0634b2dd151f145d894b0219a4080176f6817af10e3f2ea78e2c76c458671f6517423a7719ac904b5168f793462e583ffedbd0fa05a152aca2d4301305             9105 main/binary-arm64/Packages
+ 19f3955f66a0f51068253267b3cc7bc37ac027769572fb2d8c8df11e05a5c85b0f8045c33f0e3bf1b1c2e5c464c20c7ffce2e9bb224dc986c9df115cc69a90e2             2356 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCasz5+AAKCRDKVvdQNUUw
-ryT8AQDDRnPUV4ORLY+Ju32bdeJ1qiATvBMni4xVygYaXcuD6QEA17Jj1PYXCKF2
-zcf2yotiK0hYOTh4yfg9IVFo/qQ50Qk=
-=xckg
+iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCas0PYAAKCRDKVvdQNUUw
+r0/6AQCKtlUPGJ6133VNSHR7B8O3gE8xVuAO82CGdch0Emc/0wEAtzxaHQ6le+6P
+QuI5VhI76H9/MCi8YSbBJxa/4xtHlQ0=
+=2KMu
 -----END PGP SIGNATURE-----
