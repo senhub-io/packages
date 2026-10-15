@@ -1,28 +1,5 @@
 Package: senhub-agent-oss
 Architecture: amd64
-Version: 0.6.3~beta.2-1
-Priority: optional
-Section: net
-Maintainer: Sensor Factory <support@senhub.io>
-Installed-Size: 87714
-Provides: senhub-agent
-Depends: systemd
-Conflicts: senhub-agent
-Replaces: senhub-agent
-Filename: pool/beta/main/senhub-agent-oss/senhub-agent-oss_0.6.3~beta.2-1_amd64.deb
-Size: 26433476
-MD5sum: 68c12f0615255548d0555464b93072e4
-SHA1: 46395c99c60cb46323ee0de0f2cd923a88173b4a
-SHA256: d19983d7b5b5a8ddf58e5fa8666959d99e9b5f8a22c2acc0fd9560cac7c6d863
-SHA512: d48322dedcf52a3902ad09f1486d9e679bc54b75bb6008ecc6b45422e6eaf47608b2b393c136fe23c4ac17cbd02968ec96530f4ec414e3e25b807ff6ac17a9c6
-Homepage: https://agent.senhub.io
-Description: Infrastructure monitoring agent (open-source edition)
- The SenHub Agent is a single static binary that ships metrics to
- PRTG, Nagios, Prometheus, OTLP, Zabbix and the SenHub cloud.
-License: Apache-2.0
-
-Package: senhub-agent-oss
-Architecture: amd64
 Version: 0.6.3~beta.3-1
 Priority: optional
 Section: net
@@ -113,28 +90,28 @@ Description: Infrastructure monitoring agent (open-source edition)
  PRTG, Nagios, Prometheus, OTLP, Zabbix and the SenHub cloud.
 License: Apache-2.0
 
-Package: senhub-agent
+Package: senhub-agent-oss
 Architecture: amd64
-Version: 0.6.3~beta.2-1
+Version: 0.6.4~beta.1-1
 Priority: optional
 Section: net
 Maintainer: Sensor Factory <support@senhub.io>
-Installed-Size: 101769
-Provides: senhub-agent-oss
+Installed-Size: 88462
+Provides: senhub-agent
 Depends: systemd
-Conflicts: senhub-agent-oss
-Replaces: senhub-agent-oss
-Filename: pool/beta/main/senhub-agent/senhub-agent_0.6.3~beta.2-1_amd64.deb
-Size: 29724924
-MD5sum: dfbfcf1d2667a2bffdbc3003f9d31c49
-SHA1: 01720f51afb34174ab1274e62b1596106aa6d264
-SHA256: 33b1092125ba7abebd51fa9bcec03c19a794f12514413a10a2570ed671e92022
-SHA512: 14a74b1fd9c14eb7cf9e426d9910ca5bf25f300c476dc15ac4cf822814b2c6995ba181fa10d303025170ede3d12703d35171306566f053753d1e01752535b770
+Conflicts: senhub-agent
+Replaces: senhub-agent
+Filename: pool/beta/main/senhub-agent-oss/senhub-agent-oss_0.6.4~beta.1-1_amd64.deb
+Size: 26713410
+MD5sum: 22a38bcf6251c29ed85cf31cc23a791a
+SHA1: 28530ed3c5953e8a564a11f1d42e250b0c56bd02
+SHA256: 90f37a63dc7e122db07a938e55b97eff4a0a0de193596a31b40c99930d547d6a
+SHA512: 13495a94bb08e05849494ede962e89c17806eab06bf20628c36c3bdae0cc83d7a813486e1cef6924c7edad01baaf4b6caf292e1cb2a41a2ba070999eb4112de8
 Homepage: https://agent.senhub.io
-Description: Infrastructure monitoring agent (full edition)
+Description: Infrastructure monitoring agent (open-source edition)
  The SenHub Agent is a single static binary that ships metrics to
  PRTG, Nagios, Prometheus, OTLP, Zabbix and the SenHub cloud.
-License: LicenseRef-SenHub-Commercial
+License: Apache-2.0
 
 Package: senhub-agent
 Architecture: amd64
@@ -222,6 +199,29 @@ MD5sum: f1d2e42ddcedd0f3d1ae81072f4c2945
 SHA1: 2a48535fcb3f84a24c561a14f77f334a43b9cb62
 SHA256: f4c55f077af41cff60374d18ab3c3635160d508315820a0e84653b47aef2aba8
 SHA512: eb4986d1a73349dbf7d0d5e494478c3f51e823378cf4e19e24e067b1ce2b5d90f7e1a6067cebd093756b71c011885011a6de5a7fd1dc58ec3b33f72dcb7067c0
+Homepage: https://agent.senhub.io
+Description: Infrastructure monitoring agent (full edition)
+ The SenHub Agent is a single static binary that ships metrics to
+ PRTG, Nagios, Prometheus, OTLP, Zabbix and the SenHub cloud.
+License: LicenseRef-SenHub-Commercial
+
+Package: senhub-agent
+Architecture: amd64
+Version: 0.6.4~beta.1-1
+Priority: optional
+Section: net
+Maintainer: Sensor Factory <support@senhub.io>
+Installed-Size: 102589
+Provides: senhub-agent-oss
+Depends: systemd
+Conflicts: senhub-agent-oss
+Replaces: senhub-agent-oss
+Filename: pool/beta/main/senhub-agent/senhub-agent_0.6.4~beta.1-1_amd64.deb
+Size: 30041266
+MD5sum: 0dfda772367a54742870f44415d9350f
+SHA1: ac564a03d32abee22b89480705b03291cc3f46ef
+SHA256: 113634fb31e4c6225a814d2d389b5d68c1ea0694beb9fd8cf63966ae4f1ee75a
+SHA512: 9244025f7e43bb40aea2641266e90845240dc3a0b2ee67af04af11633687479d160eb8426d4301bdce518d572bf519bd8c3b0b60512bd8516822591c68be2a51
 Homepage: https://agent.senhub.io
 Description: Infrastructure monitoring agent (full edition)
  The SenHub Agent is a single static binary that ships metrics to
