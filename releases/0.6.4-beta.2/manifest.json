@@ -1,0 +1,189 @@
+{
+  "artifacts": [
+    {
+      "arch": "arm64",
+      "edition": "full",
+      "kind": "rpm",
+      "minisig_url": null,
+      "name": "senhub-agent-0.6.4.beta.2-1.aarch64.rpm",
+      "os": "linux",
+      "sha256": "22f1b48d1e7abc07241d312942b5177fc35b2e26e211e156e344e7ae4528a65a",
+      "size": 28200378,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-0.6.4.beta.2-1.aarch64.rpm"
+    },
+    {
+      "arch": "amd64",
+      "edition": "full",
+      "kind": "rpm",
+      "minisig_url": null,
+      "name": "senhub-agent-0.6.4.beta.2-1.x86_64.rpm",
+      "os": "linux",
+      "sha256": "5d5dd69c9f2afec4f91068d00a895561b3d5f7185b43f528aa07f328a0adb728",
+      "size": 31207250,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-0.6.4.beta.2-1.x86_64.rpm"
+    },
+    {
+      "arch": "amd64",
+      "edition": "full",
+      "kind": "zip",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-linux-amd64.zip.minisig",
+      "name": "senhub-agent-linux-amd64.zip",
+      "os": "linux",
+      "sha256": "2595c3b57bfc20b67fa1238e83bad47735d1ad3def8c3fbe07a65ce74ff0a9c8",
+      "size": 29468696,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-linux-amd64.zip"
+    },
+    {
+      "arch": "arm64",
+      "edition": "full",
+      "kind": "zip",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-linux-arm64.zip.minisig",
+      "name": "senhub-agent-linux-arm64.zip",
+      "os": "linux",
+      "sha256": "e03776da50678f8508f33c6e977a1d1925bfcc9233f78f44b1950a5e32a1cfb7",
+      "size": 26468068,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-linux-arm64.zip"
+    },
+    {
+      "arch": "arm64",
+      "edition": "oss",
+      "kind": "rpm",
+      "minisig_url": null,
+      "name": "senhub-agent-oss-0.6.4.beta.2-1.aarch64.rpm",
+      "os": "linux",
+      "sha256": "7512abe34d001036234e454049b1a9506f2b114427a11676f7dae0b1910c8df9",
+      "size": 24958818,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-0.6.4.beta.2-1.aarch64.rpm"
+    },
+    {
+      "arch": "amd64",
+      "edition": "oss",
+      "kind": "rpm",
+      "minisig_url": null,
+      "name": "senhub-agent-oss-0.6.4.beta.2-1.x86_64.rpm",
+      "os": "linux",
+      "sha256": "03a28f72cb1c79cb1d8359bbf3fc86d7ae6a2bf46194c5082828f70b377c3a81",
+      "size": 27705002,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-0.6.4.beta.2-1.x86_64.rpm"
+    },
+    {
+      "arch": "amd64",
+      "edition": "oss",
+      "kind": "zip",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-linux-amd64.zip.minisig",
+      "name": "senhub-agent-oss-linux-amd64.zip",
+      "os": "linux",
+      "sha256": "96c3242046c277781a1239a091656fac3e1c124b7b27b98ae668e6e72e800012",
+      "size": 26241616,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-linux-amd64.zip"
+    },
+    {
+      "arch": "arm64",
+      "edition": "oss",
+      "kind": "zip",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-linux-arm64.zip.minisig",
+      "name": "senhub-agent-oss-linux-arm64.zip",
+      "os": "linux",
+      "sha256": "8f9c22b21096e493243cf6958bfb54ec8d462bba7ca41da09b6cb40c700b363e",
+      "size": 23525096,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-linux-arm64.zip"
+    },
+    {
+      "arch": "amd64",
+      "edition": "oss",
+      "kind": "zip",
+      "minisig_url": null,
+      "name": "senhub-agent-oss-windows-amd64.zip",
+      "os": "windows",
+      "sha256": "ee204eadcdd12438822c05ec7e5305d3b03de068284d7d6dc80293eedc563722",
+      "size": 27517969,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss-windows-amd64.zip"
+    },
+    {
+      "arch": "amd64",
+      "edition": "oss",
+      "kind": "deb",
+      "minisig_url": null,
+      "name": "senhub-agent-oss_0.6.4.beta.2-1_amd64.deb",
+      "os": "linux",
+      "sha256": "0d114f92a575d85ee7b786cd885c61bd0249cd0b7d296c9e758d75c0dcfce555",
+      "size": 26731578,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss_0.6.4.beta.2-1_amd64.deb"
+    },
+    {
+      "arch": "arm64",
+      "edition": "oss",
+      "kind": "deb",
+      "minisig_url": null,
+      "name": "senhub-agent-oss_0.6.4.beta.2-1_arm64.deb",
+      "os": "linux",
+      "sha256": "3ae6fd4fd3c928b0b37201cc2d78845570f4164a13bc3e82036959283ba244d2",
+      "size": 24200696,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-oss_0.6.4.beta.2-1_arm64.deb"
+    },
+    {
+      "arch": "amd64",
+      "edition": "full",
+      "kind": "zip",
+      "minisig_url": null,
+      "name": "senhub-agent-windows-amd64.zip",
+      "os": "windows",
+      "sha256": "b1a0e6f9e05ac2038ded982f91a13883ca542ae8f76e08a4340c1cf7e3cb8892",
+      "size": 30846887,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent-windows-amd64.zip"
+    },
+    {
+      "arch": "amd64",
+      "edition": "full",
+      "kind": "deb",
+      "minisig_url": null,
+      "name": "senhub-agent_0.6.4.beta.2-1_amd64.deb",
+      "os": "linux",
+      "sha256": "7f70b3f5f16bc2f01e2c5ae0da3624214605c76c18ade84c2a4664de86a9294f",
+      "size": 30054186,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent_0.6.4.beta.2-1_amd64.deb"
+    },
+    {
+      "arch": "arm64",
+      "edition": "full",
+      "kind": "deb",
+      "minisig_url": null,
+      "name": "senhub-agent_0.6.4.beta.2-1_arm64.deb",
+      "os": "linux",
+      "sha256": "409be5c6545408b466b935efcf7fe25d8fa5b8e3c62314ef64b8fdf307906ad0",
+      "size": 27306130,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4-beta.2/senhub-agent_0.6.4.beta.2-1_arm64.deb"
+    }
+  ],
+  "channel": "beta",
+  "charts": [
+    {
+      "digest": "sha256:ff194ebb544e1ac5823aacbb6e1ac4c50936edaa571095ca4d65be8fe65b21c5",
+      "repo": "ghcr.io/senhub-io/charts/senhub-agent",
+      "version": "0.6.4-beta.2"
+    }
+  ],
+  "commit": "7cc597fd4685051cd3fd28e4521210ee424cfbaa",
+  "complete": false,
+  "date": "2026-10-15T16:52:58Z",
+  "images": [
+    {
+      "digest": "sha256:e29086536f695387504a3d6f3ea32c4e9cfbd9d77ca8d76a4f06846b01516ae1",
+      "edition": "full",
+      "repo": "ghcr.io/senhub-io/senhub-agent",
+      "tag": "0.6.4-beta.2"
+    },
+    {
+      "digest": "sha256:08a95c3431aad88f8936aeb564cacab0231483b6a4f4f4b58742364d98545e3d",
+      "edition": "oss",
+      "repo": "ghcr.io/senhub-io/senhub-agent-oss",
+      "tag": "0.6.4-beta.2"
+    }
+  ],
+  "schema_version": 1,
+  "signing_pending": [
+    "senhub-agent-oss-windows-amd64.zip",
+    "senhub-agent-windows-amd64.zip"
+  ],
+  "version": "0.6.4-beta.2"
+}
