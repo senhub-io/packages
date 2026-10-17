@@ -80,6 +80,13 @@
       "releases": [
         {
           "channel": "stable",
+          "complete": false,
+          "date": "2026-10-17T22:39:26Z",
+          "manifest_url": "https://packages.senhub.io/releases/0.6.4/manifest.json",
+          "version": "0.6.4"
+        },
+        {
+          "channel": "stable",
           "complete": true,
           "date": "2026-10-13T08:01:19Z",
           "manifest_url": "https://packages.senhub.io/releases/0.6.3/manifest.json",
