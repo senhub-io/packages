@@ -4,35 +4,35 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Tue, 13 Oct 2026 08:07:49 +0000
+Date: Sat, 17 Oct 2026 22:46:43 +0000
 Description: SenHub Agent packages (stable channel)
 Label: SenHub Agent
 Origin: Sensor Factory
 Suite: stable
 MD5Sum:
- b54b1eeaa6f96260ccafb123ef61d733             3596 main/binary-amd64/Packages
- 9e94fc040b7dc8189615eb60260a2f82             1230 main/binary-amd64/Packages.gz
- fda7e0173bddf11ba4f9106f4629255a             3594 main/binary-arm64/Packages
- eb7598b88c24721de8d4fb3395746f40             1234 main/binary-arm64/Packages.gz
+ 86e75d64747285d7009722fbd6a76cbf             5394 main/binary-amd64/Packages
+ d183002b331fa31c1623fd82365bb41b             1616 main/binary-amd64/Packages.gz
+ e1e29d576343c3dbab3b38a196448c04             5391 main/binary-arm64/Packages
+ dec1f22c0b91bf50c64ee35138232ecc             1623 main/binary-arm64/Packages.gz
 SHA1:
- 36e2727a967effa8f5fc12f798b73d0f695b41c0             3596 main/binary-amd64/Packages
- cb10c827449ef9a41a6e1cb5f1693ab48b849bb1             1230 main/binary-amd64/Packages.gz
- 926c3d568db2c873a1ac0e85b02ce9f984c3fede             3594 main/binary-arm64/Packages
- ba7b8f150e22754e88687c126f657779b8c5525a             1234 main/binary-arm64/Packages.gz
+ 5ffe10294bc4ea2838624ed85598ed5cf95e7c27             5394 main/binary-amd64/Packages
+ 2f499dfe11b6ab70daee59398d1402ffb31415be             1616 main/binary-amd64/Packages.gz
+ 394de478b66c86ca0c9830517db170dd8bc7c58b             5391 main/binary-arm64/Packages
+ 32a3361a6a005c30bdf70682bbade307ece5b7d3             1623 main/binary-arm64/Packages.gz
 SHA256:
- 8057a3409fc4fd4d118abd664676c0f9f4924e9fe5f1bc22db3c6196745d063e             3596 main/binary-amd64/Packages
- 5d5b65249cd6e18d493fce0f063a839819ead37aefc9a70a50ed24198b970d18             1230 main/binary-amd64/Packages.gz
- f5cf3d4c857696c8e8dd3af7d11f9de7f4774b00043402355cf132726cb218f6             3594 main/binary-arm64/Packages
- 557d11c808ef5ed3c6408063743948ecb8bd2d30847603b91e955ea63ad96b46             1234 main/binary-arm64/Packages.gz
+ 763d1825b40039f8232597b6541f2726270af672e472f9b5044cf0a90a3039a0             5394 main/binary-amd64/Packages
+ 79f1c8a6666d1c5531ff98c4f03b5f5ffc102c36d066ea56d0d0609a9cf1bd4c             1616 main/binary-amd64/Packages.gz
+ 5a0254002da8410e12055b738092b5ca3737da59e94bca539d9bc72171ac505d             5391 main/binary-arm64/Packages
+ a7ff3335f13bc786672063905a2b55b5784356b5b8632dc779ea99255904f85c             1623 main/binary-arm64/Packages.gz
 SHA512:
- 87e44c09fea4dc78aa1637493be81dc072c55dcdd6736cb3bdc4d2540ae6504345e251937a4e3a38aa53813ddea9ed77627c5d38c1f5da85db3a84c30c3856c2             3596 main/binary-amd64/Packages
- 97e19dc481ec052082fb392c99c4f1450484a22d6b7f274c503aa810809e852e24b5c9282ac27591e2dc9e0558eb92ad92b7140a216e0c0d1a8d24617149a6e1             1230 main/binary-amd64/Packages.gz
- 253fcf18371121b01219e79ee50c447af388a259383919041c7cdb58536b2778c59a1d6a75752595dfcd806258691af308bfe3dfdd4624f8dae8bf1346516541             3594 main/binary-arm64/Packages
- 84df7a18c2d7f27c1fe3eeea05f52d5919f7c2c84a814023410c2bd989f6eb5f878fe22f75afba7d7c960bfa25577163e8cf6c3583fa0c695dae83715b1e4c2c             1234 main/binary-arm64/Packages.gz
+ 36bc49a5932a704b76400e12afba7e7adb358923bd7d0890bd8137daf01bf139f74127f4cdc3f173ad1093d70a069af668e86b1c21311029bbe4ffe4b855fc23             5394 main/binary-amd64/Packages
+ 0a85bceacf5055dc2ec5ad1e7190effb3af733692daaafa4175bf21331e4eacce7c55ccc9af14b7b335c723f00d80966abbfb5e8778cdecea783cbe38c329228             1616 main/binary-amd64/Packages.gz
+ c1405d7bc3f879160181233139c389a9efeb77d3f7d888f4274058e2afcfc572f2d91e188033ea04f929d1d72982d00bdbf0b450c6cb0177724de3507f8cdc84             5391 main/binary-arm64/Packages
+ 56d6d085b61c368f418f4c5cc91823876ddfbad57f7fb63ddc9c804abd8ed23754e6a5cbf2cb8a5bb50995e8c378126492f7e327b789330d1fce9702d904e402             1623 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCas3m1QAKCRDKVvdQNUUw
-r2nLAP4xWKgtv9FPARjzH5tv/4NONbMjPMY/MgLW9E4icBoEggEA/nEYIJQGj2xb
-JyAeMWbqF2AAuv2CWQwg/I0yx+IduQc=
-=aQGV
+iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCatP60wAKCRDKVvdQNUUw
+r9oIAP9LNFfcYpEd1ee51BC9ssqOxYUSkPDqitYTkDD9TaIQ+wD/V4R8F0m40Og1
+WpHyBiA4XZSNWFofIlLhRgr0i4cBHgA=
+=cot6
 -----END PGP SIGNATURE-----
