@@ -25,6 +25,17 @@
     {
       "arch": "amd64",
       "edition": "full",
+      "kind": "msi",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-0.6.4-amd64.msi.minisig",
+      "name": "senhub-agent-0.6.4-amd64.msi",
+      "os": "windows",
+      "sha256": "50d74ffaf2a622e45b20866623a3c07c140b49e167bbfd5b882c74d49e692ef6",
+      "size": 24322048,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-0.6.4-amd64.msi"
+    },
+    {
+      "arch": "amd64",
+      "edition": "full",
       "kind": "zip",
       "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-linux-amd64.zip.minisig",
       "name": "senhub-agent-linux-amd64.zip",
@@ -65,6 +76,17 @@
       "sha256": "2b5533d2a97fee283d0fb0a2a8feb9f38ca78a3c746484ea47dc97cd7434d89e",
       "size": 27779607,
       "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-oss-0.6.4-1.x86_64.rpm"
+    },
+    {
+      "arch": "amd64",
+      "edition": "oss",
+      "kind": "msi",
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-oss-0.6.4-amd64.msi.minisig",
+      "name": "senhub-agent-oss-0.6.4-amd64.msi",
+      "os": "windows",
+      "sha256": "747955248d944ae7e85f690fd844284787c3543020994bcd0e6f54e10c35149d",
+      "size": 21848064,
+      "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.6.4/senhub-agent-oss-0.6.4-amd64.msi"
     },
     {
       "arch": "amd64",
@@ -164,7 +186,7 @@
     }
   ],
   "commit": "f68e5053fc38accebff6825a097037491a0da023",
-  "complete": false,
+  "complete": true,
   "date": "2026-10-17T22:39:26Z",
   "images": [
     {
