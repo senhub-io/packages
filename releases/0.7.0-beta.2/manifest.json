@@ -168,6 +168,12 @@
   "date": "2026-11-05T12:21:11Z",
   "images": [
     {
+      "digest": "sha256:d4136b012448a5699248dbca643c471ccab58ee44b3c7a886c8332aa5a73c55d",
+      "edition": "full",
+      "repo": "ghcr.io/senhub-io/senhub-agent",
+      "tag": "0.7.0-beta.2"
+    },
+    {
       "digest": "sha256:1ff94dc6ad0ffd411cd546a582ac6453147c10d5d879fa568d625e19b827e7d9",
       "edition": "oss",
       "repo": "ghcr.io/senhub-io/senhub-agent-oss",
