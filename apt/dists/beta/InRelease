@@ -4,35 +4,35 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: beta
 Components: main
-Date: Thu, 05 Nov 2026 12:27:59 +0000
+Date: Mon, 09 Nov 2026 07:41:46 +0000
 Description: SenHub Agent packages (beta channel)
 Label: SenHub Agent
 Origin: Sensor Factory
 Suite: beta
 MD5Sum:
- e304f626700d889ede52433aab6408d3             9110 main/binary-amd64/Packages
- b5b8278561eb3eda9984bc195bce8032             2401 main/binary-amd64/Packages.gz
- 879bfad8bcae6e5f81edac11ba5ba399             9105 main/binary-arm64/Packages
- 56a6561f33d54576d5e7535e9f1a85dd             2405 main/binary-arm64/Packages.gz
+ 947ab951390fcc8bcaa9da1f89c1852b             9110 main/binary-amd64/Packages
+ d9418d717ef267d3a6047c7bd05225d9             2385 main/binary-amd64/Packages.gz
+ cf598a22bb4f86c26b9922950481a667             9105 main/binary-arm64/Packages
+ dedf49bf67189a90e672b40d41c210dd             2394 main/binary-arm64/Packages.gz
 SHA1:
- d697cd27cb18b7fde519d557ca1793ab8332d8b2             9110 main/binary-amd64/Packages
- 82104191400d695ed341fc2694c269171400e64e             2401 main/binary-amd64/Packages.gz
- f30914a138bf8330b50c0539fe57f8533e76dcad             9105 main/binary-arm64/Packages
- 255046435c21dd0e4dd3ab97c70cad308fabc219             2405 main/binary-arm64/Packages.gz
+ f3e93d147f5b73929a5440b72e697fa79c09ed06             9110 main/binary-amd64/Packages
+ fea712e7c592b1cd870a77b96dfdf8359df961ff             2385 main/binary-amd64/Packages.gz
+ 9a60662afca8d7b6967656f4a570e651362c00df             9105 main/binary-arm64/Packages
+ 2f0b22136de84a54f93aa3aa07d2bf3b43b95670             2394 main/binary-arm64/Packages.gz
 SHA256:
- 294dda82a30bc1e305f52ac15d733508fb33ac4c43688f09088c0d023ea10c3b             9110 main/binary-amd64/Packages
- 180d8ed0c10d103db6b37a8c5fca301d925263b505168b6b398a1c2fafcc9ee7             2401 main/binary-amd64/Packages.gz
- 10688ed228410cc54a59e6c9283a7c04a9cfc173f6b7d7915b4cc1a9e8a97685             9105 main/binary-arm64/Packages
- 03b8a0fd35736964f95978bef605770df0e07b8823b9bd39e8bb18d495bb8c6c             2405 main/binary-arm64/Packages.gz
+ 5cb21c9f6803c8dabce74d8d2d19cc7c862b14db45917b966aa2d596b6ff0d5d             9110 main/binary-amd64/Packages
+ 9ecea21e9689f140055f4934dbe3b0d8bad73a440ce760a92f3fd2536b3ffe00             2385 main/binary-amd64/Packages.gz
+ 2740c8d7c166d808940c9e23cd5bcb1dfcf8ac1e1f9d4e18661f939945ad3b92             9105 main/binary-arm64/Packages
+ 283b40af77f50888303e349829ee36e3bb904f036524ecd564c2bd05cfecd4b3             2394 main/binary-arm64/Packages.gz
 SHA512:
- b5ab438eb7a1ea8f56de4dac32ab859768ebe7b592561e6871d9eb35d3c836be5b3eed6bd37c48b5fb8d36e9391579fc8a3e44e673057d10c0070f2996b362d0             9110 main/binary-amd64/Packages
- 845f39cbe41db7357e955d0124eea1a5bf30abad52572058af41c60a2b3d5ca0ecda1388f72c00c37042dd729210a55ebe3f907213c6ad4d33131970f5407bff             2401 main/binary-amd64/Packages.gz
- 13948bd0a7b173685a5a1c0b6d044b41a2978719aa88ecaef012e38777d589534fc9f5c2feae9145e304e846244fed2b92ee46675f8f9d787d4d49c29c18a540             9105 main/binary-arm64/Packages
- 6be7cb57c1a32d9e4aab008ccbea4e816c51e7e78a10b172b9bcdacc1ebe48aec0a21b5db175418678f5c6813cd4127368134e780d0d6273065bcaab967166a0             2405 main/binary-arm64/Packages.gz
+ 5fd34575e9085291448ec8c3b850ade5e53708898148d6757747fe54b677582e7e0150f6ea42db5be7d879af5efc6a8177cb43ebe0150c200ba56043702f2b9f             9110 main/binary-amd64/Packages
+ 513b85a3fb5c5cc460a1ae3c269d7dddaaf4e8c283c81ca50962f411be655a1ebfb698c8fb53db4117bb2c3912de73667da9804e25e8b001daf4b5777bb80e46             2385 main/binary-amd64/Packages.gz
+ e9b2a4bafc9f4cf4934a6a3ca422474312fc1f806101b49371f8b7221f2256c55235237b4b14a590dd1e4b534e2a9d17450f0f665b6de043222d156f6c87ce49             9105 main/binary-arm64/Packages
+ 2d73f33732d1bfa37ef094f2ea1628b6d240ff4ca27863631fa15cb4d6431cb369ed6b680fbc631cfbb96ae47caf7b44b927dbbd95c2fa812348abbd0437a494             2394 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCaux2TwAKCRDKVvdQNUUw
-r7cnAQCTkQz6NB6wvFA7EWhp9vLruay5O56mUrhOourOd8GXgQD/R2T2W3uki7J+
-+lZlVtsJKMwIvw1ZDDmBALgCKV9pwQE=
-=8HGU
+iHUEARYKAB0WIQS5mHotRiN5bhnTsYXKVvdQNUUwrwUCavF5OgAKCRDKVvdQNUUw
+r8h2AP40syFRgqpXkstDA2JpYaT/Uhx21LB6IDJy2JFOFTheuwD6A2iaGjtPKyCh
+7ak+kQOh/ZVlHeWkexBzLJObdZugjQA=
+=IFF7
 -----END PGP SIGNATURE-----
