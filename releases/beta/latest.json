@@ -92,11 +92,11 @@
       "arch": "amd64",
       "edition": "oss",
       "kind": "zip",
-      "minisig_url": null,
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.7.0-beta.3/senhub-agent-oss-windows-amd64.zip.minisig",
       "name": "senhub-agent-oss-windows-amd64.zip",
       "os": "windows",
-      "sha256": "bc3fe885a28eb654e126a0dad3f869267e35aecff7940b26df1ab7bd194f8b69",
-      "size": 27833766,
+      "sha256": "7c909c59f07cdf8e5f06c3156c1ec35eb45615b180ff4a02cc5beb57ef320614",
+      "size": 27849347,
       "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.7.0-beta.3/senhub-agent-oss-windows-amd64.zip"
     },
     {
@@ -125,11 +125,11 @@
       "arch": "amd64",
       "edition": "full",
       "kind": "zip",
-      "minisig_url": null,
+      "minisig_url": "https://github.com/senhub-io/senhub-agent/releases/download/0.7.0-beta.3/senhub-agent-windows-amd64.zip.minisig",
       "name": "senhub-agent-windows-amd64.zip",
       "os": "windows",
-      "sha256": "df7995017f947bdc97a7b8908f5d4617268d551df138d7853470b5d61ef1d718",
-      "size": 31686305,
+      "sha256": "88ddc412e1ec8554e347edadba1181a4ccb44a97c96b1a68f6206af202220425",
+      "size": 31701979,
       "url": "https://github.com/senhub-io/senhub-agent/releases/download/0.7.0-beta.3/senhub-agent-windows-amd64.zip"
     },
     {
@@ -164,7 +164,7 @@
     }
   ],
   "commit": "c72b4111c927250feb979dc665d558514ecf94f1",
-  "complete": false,
+  "complete": true,
   "date": "2026-11-09T07:33:44Z",
   "images": [
     {
@@ -175,9 +175,6 @@
     }
   ],
   "schema_version": 1,
-  "signing_pending": [
-    "senhub-agent-oss-windows-amd64.zip",
-    "senhub-agent-windows-amd64.zip"
-  ],
+  "signing_pending": [],
   "version": "0.7.0-beta.3"
 }
