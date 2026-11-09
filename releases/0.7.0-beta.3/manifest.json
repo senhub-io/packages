@@ -166,7 +166,14 @@
   "commit": "c72b4111c927250feb979dc665d558514ecf94f1",
   "complete": false,
   "date": "2026-11-09T07:33:44Z",
-  "images": [],
+  "images": [
+    {
+      "digest": "sha256:13e2c4a256adfede7ac2c5f80a2e64a6904e45897434785d6583c7f4bcca831f",
+      "edition": "oss",
+      "repo": "ghcr.io/senhub-io/senhub-agent-oss",
+      "tag": "0.7.0-beta.3"
+    }
+  ],
   "schema_version": 1,
   "signing_pending": [
     "senhub-agent-oss-windows-amd64.zip",
