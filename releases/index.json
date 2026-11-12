@@ -6,6 +6,13 @@
         {
           "channel": "beta",
           "complete": false,
+          "date": "2026-11-12T11:04:42Z",
+          "manifest_url": "https://packages.senhub.io/releases/0.7.1-rc.1/manifest.json",
+          "version": "0.7.1-rc.1"
+        },
+        {
+          "channel": "beta",
+          "complete": false,
           "date": "2026-11-12T08:30:28Z",
           "manifest_url": "https://packages.senhub.io/releases/0.7.0-rc.7/manifest.json",
           "version": "0.7.0-rc.7"
