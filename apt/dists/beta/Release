@@ -1,28 +1,28 @@
 Architectures: amd64 arm64
 Codename: beta
 Components: main
-Date: Thu, 12 Nov 2026 11:09:25 +0000
+Date: Thu, 12 Nov 2026 12:18:22 +0000
 Description: SenHub Agent packages (beta channel)
 Label: SenHub Agent
 Origin: Sensor Factory
 Suite: beta
 MD5Sum:
- f86713493ee40964e1814b151c3ef865             9070 main/binary-amd64/Packages
- f278706f50a3d8eae7d108e93f0bac7e             2361 main/binary-amd64/Packages.gz
- a5153ad3747397186c1a4cd54d7e7cc8             9065 main/binary-arm64/Packages
- 85b97967be7f6461386b69cb430e337b             2341 main/binary-arm64/Packages.gz
+ 083a8ff2de3237957bdea0a3ea68110e             9070 main/binary-amd64/Packages
+ 242357df473b50bb3e57f441fbc236aa             2370 main/binary-amd64/Packages.gz
+ 32919c81beae03b8a24b5b14a546d3a8             9065 main/binary-arm64/Packages
+ 21040d556e773fc4f13ee14fedd3075a             2343 main/binary-arm64/Packages.gz
 SHA1:
- 148a88df3d03861b7cae62e8297cfacac56a80fd             9070 main/binary-amd64/Packages
- 47a38420bb4ff71fbcea360e7fc5a0d7952c683e             2361 main/binary-amd64/Packages.gz
- 64f7f6ecb94ee3ac4d79bf993aa690bc78891c72             9065 main/binary-arm64/Packages
- 635f672b7eac0ec5f4341e51c08fe648b10d048e             2341 main/binary-arm64/Packages.gz
+ 2d4efe7bfecbc65c3d0a39c75d9d0fff86fb7f50             9070 main/binary-amd64/Packages
+ e1f6103360739ac8bf67549920628126e463e612             2370 main/binary-amd64/Packages.gz
+ fe664d9644bd465299a3c2c4d74cf90c9d5e3040             9065 main/binary-arm64/Packages
+ 747909c886ac608de44708728880bf901c13c25e             2343 main/binary-arm64/Packages.gz
 SHA256:
- 2c5bf63b265bf7647dce7406fdf25db742fb9e90169cbe9b58c619d0112439b6             9070 main/binary-amd64/Packages
- 1354c1dd2910217328c8272859fce42d82fdf6975f11ad98f323e3c2e68c6fe7             2361 main/binary-amd64/Packages.gz
- 409f7b4cbed3d44593800b5a5731a685669faf366c6b0ff393425863c51a3ca5             9065 main/binary-arm64/Packages
- 24ef9a37ba381303bc4c672bf14ae79ee4f03e1655952d7752cf67a767c4c067             2341 main/binary-arm64/Packages.gz
+ 4cb99527d61d6d422c4a2e54adb3aa108ee3ad6767cf4e5b94e2dee8cbc99ff3             9070 main/binary-amd64/Packages
+ f06d17bfb6ef9d92fe5fc87f6b39d4190a7e0983704fa378faabd91f38cd1522             2370 main/binary-amd64/Packages.gz
+ c0b53b5cf1ea6045d9ee35889c0ef793c9eee2e2777a6408e4d8e2946273916c             9065 main/binary-arm64/Packages
+ 84c2968055865bb3c726137f891b232398fbbfb056fe24b6d0f9bcce579be2b7             2343 main/binary-arm64/Packages.gz
 SHA512:
- b74db75601719104ccfdea1b89e157f3dc58e36ab076b3c393efeebf419dfba16ef70610fa0474343b5c4f4a0eee62f4f03e7773980d46384a9410597a7a6176             9070 main/binary-amd64/Packages
- c713be43f99997e65eb68816b8b77636c0d58f1b0e5ad376bba537d529a9f462fee9f2fa3b5082791dbf00c2320222df604774aeb2e091fc19ad5b83bce93374             2361 main/binary-amd64/Packages.gz
- 1ca03af8e3a3133473fae68005cdb62b2eb45519e614ec6f6d317fda7f8b869e1e86ed63f7f585a961e5b439b5c8d6536e40f6c3d1de56f76f228e828dd652e9             9065 main/binary-arm64/Packages
- 9714d8ad9086b16fa919757c8bef3ddf15c26e9e436e8319efd76615a784146f3baae9e66f99104ccff9f23649fb31d4f79344ff2822d35ef8acd49bd7fcafe8             2341 main/binary-arm64/Packages.gz
+ 38c50f770c9b8415ad49c6dae845c69e3d4413ba56035e59cf3b3c5b653e849032c7f21afb603c7e092e125370a98ffbdd5993a4ee9a7da85ffa02ed21fb2e93             9070 main/binary-amd64/Packages
+ 0f48cd8d7569f08d1bc100e7c897201d71347d3415fea4d06e9972caec35a86beb9ece963223066bf461820164b12cebb0f1d5d826d522aec95ea89e063151f7             2370 main/binary-amd64/Packages.gz
+ e09e330d177f9a691d9305b45d69feec16aa49a3c465e2ca9080bef4063e568206920c663e7be2f2b8eafc31610bbd5777d191f2aff81bb10b3d1c33babef8ed             9065 main/binary-arm64/Packages
+ d55b5f33578669e65d2bf8e0eca9bfd1670ab415578e7f3de5f3a0cc2e310cd79497880f86ee8ccc4fb7e4fde71b0a611cc9ca86c20662f1725bf67f1c649831             2343 main/binary-arm64/Packages.gz
