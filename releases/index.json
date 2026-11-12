@@ -179,6 +179,13 @@
         {
           "channel": "stable",
           "complete": true,
+          "date": "2026-11-12T22:02:14Z",
+          "manifest_url": "https://packages.senhub.io/releases/0.7.1/manifest.json",
+          "version": "0.7.1"
+        },
+        {
+          "channel": "stable",
+          "complete": true,
           "date": "2026-10-29T15:50:42Z",
           "manifest_url": "https://packages.senhub.io/releases/0.6.5/manifest.json",
           "version": "0.6.5"
